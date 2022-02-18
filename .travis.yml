@@ -25,7 +25,7 @@ script:
 
 after_success:
   - echo "$DOCKER_PASSWORD" | docker login -u "$DOCKER_USERNAME" --password-stdin
-  - docker push badex360/udagram-api-feed
-  - docker push badex360/udagram-api-user
-  - docker push badex360/udagram-frontend
-  - docker push badex360/reverseproxy
+  - docker push badex360/udagram-api-feed:1.0.0
+  - docker push badex360/udagram-api-user:1.0.0
+  - docker push badex360/udagram-frontend:1.0.0
+  - docker push badex360/reverseproxy:1.0.0
