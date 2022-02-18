@@ -20,7 +20,7 @@ script:
   - docker tag udagram-api-feed:1.0.0 badex360/udagram-api-feed:1.0.0
   - docker tag udagram-api-user:1.0.0 badex360/udagram-api-user:1.0.0
   - docker tag udagram-frontend:1.0.0 badex360/udagram-frontend:1.0.0
-  - docker tag udagram-reverseproxy:1.0.0 badex360/udagram-reverseproxy:1.0.0
+  - docker tag reverseproxy:1.0.0 badex360/reverseproxy:1.0.0
   
 
 after_success:
@@ -28,4 +28,4 @@ after_success:
   - docker push badex360/udagram-api-feed
   - docker push badex360/udagram-api-user
   - docker push badex360/udagram-frontend
-  - docker push badex360/udagram-reverseproxy
+  - docker push badex360/reverseproxy
