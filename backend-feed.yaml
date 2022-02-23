@@ -15,7 +15,7 @@ spec:
         app: backend-feed
     spec:
       containers:
-      - name: simple-api
+      - name: backend-feed
         image: badex360/udagram-api-feed:1.0.0
         ports:
         - containerPort: 8080

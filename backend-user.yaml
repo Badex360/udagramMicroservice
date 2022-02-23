@@ -15,7 +15,7 @@ spec:
         app: backend-user
     spec:
       containers:
-      - name: simple-api
+      - name: udagram-api-user
         image: badex360/udagram-api-user:1.0.0
         ports:
         - containerPort: 8080
