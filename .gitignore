@@ -1,5 +1,5 @@
 .travis.yml
 aws-secret.yaml
-env-secretyaml
+env-secret.yaml
 env-configmap.yaml
 node_modules/
